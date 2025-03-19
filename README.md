@@ -1,5 +1,9 @@
 # ZSeeker sensitivity test
 
+In our sensitivity tests, we evaluated a set of sequences where a subset was designated as non–Z-DNA forming and served as negative controls, while the remaining sequences were expected to form Z-DNA. We varied the dinucleotide weights across several parameter combinations: GC weights were tested at 5, 7, and 9; GT and AC weights were examined at 1.25 and 3.25, with negative values excluded; and the AT weight was maintained at 0.5 due to its nonlinear relationship with consecutive AT transitions. By applying a threshold variation of ±2 and prohibiting negative scores, our experiments identified the optimal configuration as GC = 7, GT = 1.25, AC = 1.25, and AT = 0.5. This parameter set distinguishes between sequences that form Z-DNA and those that do not and serves as a baseline that can be adjusted to account for environmental factors such as divalent cation concentration and pH.
+
+
+
 1) ZSeeker was tested in a series of forming/non forming Z-DNA  sequences in the fasta file sensitivity.fa
 
 2) Sequences marked with the prefix "non" in the fasta file are non Z-DNA forming
