@@ -29,8 +29,10 @@ The aggregated results are stored in:
 
 # Sequences used for testing
 
-All data the were used in the sensitivity analysis were derived from wet-lab experiments and were enriched with sequences derived from the original paper of ZHunt:  
-[Schroth GP, Chou PJ, Ho PS. Mapping Z-DNA in the human genome. Computer-aided mapping reveals a nonrandom distribution of potential Z-DNA-forming sequences in human genes. J Biol Chem 1992;](https://pubmed.ncbi.nlm.nih.gov/1601856/)
+All data the were used in the sensitivity analysis were derived from Z-DNA related papers and wet-lab experiments. The origin of each sequence can be found at 
+```
+supplementary_material/Supplementary Table - Sensitivity Test Sequences.xlsx 
+```
 Sequences marked with the postfix "_non" are marked as non Z-DNA forming otherwise they are marked as forming.
 To be marked with the "optimal_parameters" property a test has to predict correctly all sequences in the test.
 
